@@ -33,7 +33,6 @@ To set it back to the previous secure state:
     pip3 install -r requirements.txt
     
     
-NB: The venv for Unix-like & MacOs environement
 
 
 ## Block Ciphers used:
