@@ -5,21 +5,19 @@
 
 ## description:
     
-    Crypto play is a python script to encrypt and decrypt files content not file itself, using AES 256bits CTR, EAX modes and RSA.
-    It uses PyCryptodome library to perform its operation.
+Crypto play is a python script to encrypt and decrypt files content not file itself, using AES 256bits CTR, EAX modes and RSA.
+It uses PyCryptodome library to perform its operation.
 
 ## To install dependencies : 
-    ```bash
      pip3 install -r requirements.txt
-    ```
 
 
 ## Block Ciphers used:
 * AES:
-    size: 256
-    mode: CTR, EAX. By default it uses CTR mode
+   ** size: 256
+   ** mode: CTR, EAX. By default it uses CTR mode
 * RSA:
-    size: 2048 by default. one can specify other key size i.e 4096
+   ** size: 2048 by default. one can specify other key size i.e 4096
 
 
 ## Expected Input: 
@@ -30,7 +28,7 @@
 
 
 ## Expected Output:
-*If output file is specified, the operation result will be saved in it.
+* If output file is specified, the operation result will be saved in it.
 * In all cases the result will be printed on screen.
  
 * in RSA, when a key is not specified it will generate a keypair (public & private) following this pattern: public_FILENAME.pem / private_FILENAME.pem
@@ -64,6 +62,6 @@ let's suppose we are in the script directory and there is  a file in it called: 
     
 
 ## For more Information:
-    ```bash
+    ``` bash
      python3 cryptoplay.py --help  
     ```
