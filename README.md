@@ -33,6 +33,10 @@ To set it back to the previous secure state:
     pip3 install -r requirements.txt
     
     
+ To deactivate the virtual environment:
+ 
+       deactivate
+    
 
 
 ## Block Ciphers used:
