@@ -10,32 +10,13 @@ It uses PyCryptodome library to perform its operation.
 
 ## To install dependencies : 
 
-since every needed library is inside a virtual environement ( the folder 'venv'), you have to enable it first to use the script without installing anything on your system.
-On Unix-like & MacOS:
-        
-    source venv/bin/activate
-    
-On Windows Powershell:
-     
-     win_venv\Scripts\Activate.ps1
-     
-NB: If you encounter any problem saying that a script can be executed on your powershell for security reasons, you will have to allow it as follows:
-
-     Set-ExecutionPolicy Unrestricted -scope process
-     
-To set it back to the previous secure state:
-      
-      Set-ExecutionPolicy restricted -scope process
-    
        
- In case you want thoses dependencies on your system permanently, you can install the required librairies as follows: 
+ In order to be able to run this script, you have to install the required librairies as follows: 
 
     pip3 install -r requirements.txt
     
     
- To deactivate the virtual environment:
  
-       deactivate
     
 
 
